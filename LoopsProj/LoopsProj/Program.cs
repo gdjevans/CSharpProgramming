@@ -72,6 +72,34 @@ namespace LoopsProj
                 x += i;
             }
             System.Console.WriteLine(x);
+
+            foreach(char s in "abc")
+            {
+                System.Diagnostics.Debug.WriteLine(s);
+            }
+
+            int i = 0;
+            while(i < 5)
+            {
+                System.Diagnostics.Debug.WriteLine(i);
+                i++;
+            }
+
+            int x = 3;
+            while(x > 0)
+            {
+                System.Console.WriteLine(x);
+                x-=1;
+            }
+
+            int i = 0;
+            do
+            {
+                System.Diagnostics.Debug.WriteLine(i.ToString());
+                i++;
+            } while(x < 5);
+
+            
         }
     }
 }
